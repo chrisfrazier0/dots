@@ -1,12 +1,21 @@
-# Dots - Cosmic Dotfile Manager 🌌
+<a name="readme-top"></a>
 
-<br>
 <div align="center">
   <a href="https://github.com/Frazier-Software/dots">
-    <img src="logo.png" alt="Logo" width="192" height="192">
+    <img src="logo.png" alt="Dots" width="192" height="192">
   </a>
+  <br><br>
+  <p align="center">🌌 Cosmic Dotfile Manager</p>
 </div>
 <br>
+
+<!-- BADGES -->
+
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+## About
 
 **Dots** is your interstellar command center for managing dotfiles with ease and flair! Whether you're beaming up new configs or deploying them across systems, Dots keeps your setup in hyperspace. With a single command, you can add, sync, diff, or apply your dotfiles, all while enjoying a playful, space-themed experience. Ready to launch? Try this:
 
@@ -19,6 +28,8 @@ git commit -m "feat: added vimrc"
 
 No more messy symlinks or manual copying—Dots handles the heavy lifting, so you can focus on exploring the universe of your perfect setup! 🚀
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Installation 🚀
 
 Launch Dots on a new system in minutes with these steps. Get ready to enter orbit!
@@ -26,6 +37,7 @@ Launch Dots on a new system in minutes with these steps. Get ready to enter orbi
 ### Fresh Install 🌟
 
 1. **Install Dots** using our cosmic one-liner:
+
    ```shell
    curl https://dots.frazier.software/install.sh | bash
    ```
@@ -33,12 +45,15 @@ Launch Dots on a new system in minutes with these steps. Get ready to enter orbi
 2. **Follow the prompts** to choose your dotfiles repo location (default: `~/.dotfiles`).
 
 3. **Set up your environment** as instructed:
+
    ```shell
    # Add to ~/.bashrc or ~/.zshrc
    export DOTFILE_PATH="$HOME/.dotfiles"
    export PATH="$DOTFILE_PATH/bin:$PATH"
    ```
+
    Then reload your shell:
+
    ```shell
    source ~/.bashrc  # or ~/.zshrc
    ```
@@ -56,22 +71,27 @@ Launch Dots on a new system in minutes with these steps. Get ready to enter orbi
 Got a Dots repo from another galaxy? Here's how to bring it to a new system:
 
 1. **Clone your repo**:
+
    ```shell
    git clone <your-repo-url> ~/.dotfiles
    ```
 
 2. **Set environment variables**:
+
    ```shell
    # Add to ~/.bashrc or ~/.zshrc
    export DOTFILE_PATH="$HOME/.dotfiles"
    export PATH="$DOTFILE_PATH/bin:$PATH"
    ```
+
    Reload your shell:
+
    ```shell
    source ~/.bashrc  # or ~/.zshrc
    ```
 
 3. **Verify your setup**:
+
    ```shell
    dots diff  # Scan for differences
    ```
@@ -82,6 +102,8 @@ Got a Dots repo from another galaxy? Here's how to bring it to a new system:
    ```
 
 Your system is now in sync with your cosmic configs! 🌠
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage 📡
 
@@ -106,6 +128,8 @@ Environment:
   DOTFILE_PATH  Set custom dotfiles repo path (default: $HOME/.dotfiles)
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Features 🚀
 
 - **Smart File Handling**: Automatically transforms hidden files (e.g., `.zshrc`) into repo-friendly names (e.g., `dot_zshrc`) and back.
@@ -116,9 +140,13 @@ Environment:
 - **Playful UX**: Space-themed messages make managing dotfiles a blast!
 - **GPG Encryption**: Protect sensitive dotfiles with GPG.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Why Dots? 🌑
 
 Unlike other dotfile managers, Dots is lightweight, bash-powered, and packed with personality. No dependencies beyond git, no complex setup—just pure, cosmic simplicity. Whether you're a lone astronaut or a fleet commander, Dots scales to your needs without leaving you lost in space.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## FAQ 🛸
 
@@ -131,10 +159,21 @@ A: Run `dots diff` to spot issues, or use git to revert changes. Your repo is yo
 **Q: Can I use Dots without git?**  
 A: Git is required for repo initialization and tracking, but Dots makes it easy to track, commit, and push.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## License 📜
 
 Released under the [MIT License](LICENSE.txt). Beam it, fork it, share it—just keep the good vibes in orbit!
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
-*Built with ❤️ and a touch of AI by Frazier Software. Run `dots` and explore the universe of your configs!*
+_Built with ❤️ and a touch of AI by Frazier Software. Run `dots` and explore the universe of your configs!_
+
+[issues-shield]: https://img.shields.io/github/issues/Frazier-Software/dots.svg?style=for-the-badge
+[issues-url]: https://github.com/Frazier-Software/dots/issues
+[license-shield]: https://img.shields.io/github/license/Frazier-Software/dots.svg?color=44CC11&style=for-the-badge
+[license-url]: https://github.com/Frazier-Software/dots/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/chrisfrazier0
