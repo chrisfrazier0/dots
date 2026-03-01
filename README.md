@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/Frazier-Software/dots">
+  <a href="https://github.com/chrisfrazier0/dots">
     <img src="logo.png" alt="Dots" width="192" height="192">
   </a>
   <br><br>
@@ -171,9 +171,9 @@ Released under the [MIT License](LICENSE.txt). Beam it, fork it, share it—just
 
 _Built with ❤️ and a touch of AI by Frazier Software. Run `dots` and explore the universe of your configs!_
 
-[issues-shield]: https://img.shields.io/github/issues/Frazier-Software/dots.svg?style=for-the-badge
-[issues-url]: https://github.com/Frazier-Software/dots/issues
-[license-shield]: https://img.shields.io/github/license/Frazier-Software/dots.svg?color=44CC11&style=for-the-badge
-[license-url]: https://github.com/Frazier-Software/dots/blob/master/LICENSE.txt
+[issues-shield]: https://img.shields.io/github/issues/chrisfrazier0/dots.svg?style=for-the-badge
+[issues-url]: https://github.com/chrisfrazier0/dots/issues
+[license-shield]: https://img.shields.io/github/license/chrisfrazier0/dots.svg?color=44CC11&style=for-the-badge
+[license-url]: https://github.com/chrisfrazier0/dots/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/chrisfrazier0
